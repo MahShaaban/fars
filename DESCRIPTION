@@ -12,5 +12,8 @@ LazyData: true
 RoxygenNote: 6.0.1
 Suggests: testthat,
     knitr,
-    rmarkdown
+    rmarkdown,
+    dplyr,
+    tidyr,
+    maps
 VignetteBuilder: knitr
