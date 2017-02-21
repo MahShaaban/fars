@@ -13,6 +13,8 @@ RoxygenNote: 6.0.1
 Suggests: testthat,
     knitr,
     rmarkdown,
+    graphics,
+    readr,
     dplyr,
     tidyr,
     maps
