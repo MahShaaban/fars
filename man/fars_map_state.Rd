@@ -22,10 +22,6 @@ The function returns an error \code{invalid STATE number: state.num} if the prov
 otherwise it constructs a file name using the provided year, read the data file and plot points of individual accidents on the STATE map.
 }
 \examples{
-# invalid STATE number
-fars_map_state(1000, 2013)
-
-# a valid input
 fars_map_state(50, 2013)
 
 }

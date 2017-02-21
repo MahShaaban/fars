@@ -19,7 +19,9 @@ This function returns a summary of the number of accidents per month for each ye
 The function returns a numerical summary of the number of accidents per month for each year provided in the input.
 }
 \examples{
+\dontrun{
 years <- 2013:2015
 fars_summarize_years(years)
+}
 
 }
