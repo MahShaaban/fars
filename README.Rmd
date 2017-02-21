@@ -1,0 +1,26 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+
+This vinette is writen for the package `fars` as part of week 4 assignment of the coursera course "R packages". The aim of this is to describe the functions in the package and their use cases. The packages cosists of 5 functions:  
+
+  - `make_filename`  
+  
+  - `fars_read`  
+  
+  - `fars_read_years`  
+  
+  - `fars_summarize_year`  
+  
+  - `fars_map_state`  
