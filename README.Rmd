@@ -12,6 +12,7 @@ knitr::opts_chunk$set(
 )
 ```
 
+[![Build Status](https://travis-ci.org/MahShaaban/fars.svg?branch=master)](https://travis-ci.org/MahShaaban/fars)  
 
 This vinette is writen for the package `fars` as part of week 4 assignment of the coursera course "R packages". The aim of this is to describe the functions in the package and their use cases. The packages cosists of 5 functions:  
 
