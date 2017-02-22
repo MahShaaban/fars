@@ -20,10 +20,12 @@ The function returns a warning \code{invalid year: year} if the input year does 
 othewise construct a vecotr of file names using \code{\link{make_filename}} and reads them in a list using \code{\link{fars_read}}.
 }
 \examples{
+\dontrun{
 # invalid input, year doesn't exist
 fars_read_years(c(2013, 2014, 1900))
 
 # valid input
 fars_read_years(2013:2015)
+}
 
 }

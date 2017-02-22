@@ -19,10 +19,12 @@ This function construct a name for a \href{https://www.nhtsa.gov/research-data/f
 The function constructs a string for a \href{https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars}{FARS} data file for the given year. It addes the prefix "accident_" to the given year then adds ".csv.bz2" suffix to the string.
 }
 \examples{
+\dontrun{
 # input year as an intger
 make_filename(2013)
 
 # input year as a character
 make_filename("2014")
+}
 
 }

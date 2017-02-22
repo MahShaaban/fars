@@ -9,11 +9,13 @@
 #' @details The function constructs a string for a \href{https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars}{FARS} data file for the given year. It addes the prefix "accident_" to the given year then adds ".csv.bz2" suffix to the string.
 #'
 #' @examples
+#' \dontrun{
 #' # input year as an intger
 #' make_filename(2013)
 #'
 #' # input year as a character
 #' make_filename("2014")
+#' }
 #'
 #' @export
 make_filename <- function(year) {
@@ -35,12 +37,14 @@ make_filename <- function(year) {
 #' directory, other wise return a \code{data.fram}.
 #'
 #' @examples
+#' \dontrun{
 #' # construct a file name using `make_filename`
 #' file_name <- make_filenam(2013)
 #' fars_read(file_name)
 #'
 #' # supply file name explicitly
 #' fars_read("accident_2013.csv.bz2")
+#' }
 #'
 #' @import readr
 #' @import dplyr
@@ -68,11 +72,13 @@ fars_read <- function(filename) {
 #' othewise construct a vecotr of file names using \code{\link{make_filename}} and reads them in a list using \code{\link{fars_read}}.
 #'
 #' @examples
+#' \dontrun{
 #' # invalid input, year doesn't exist
 #' fars_read_years(c(2013, 2014, 1900))
 #'
 #' # valid input
 #' fars_read_years(2013:2015)
+#' }
 #'
 #' @import dplyr
 #'
@@ -135,7 +141,9 @@ fars_summarize_years <- function(years) {
 #' otherwise it constructs a file name using the provided year, read the data file and plot points of individual accidents on the STATE map.
 #'
 #' @examples
+#' \dontrun{
 #' fars_map_state(50, 2013)
+#' }
 #'
 #' @import dplyr
 #' @import maps

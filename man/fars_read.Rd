@@ -20,11 +20,13 @@ The function returns an error \code{file does not exist} if a file with the name
 directory, other wise return a \code{data.fram}.
 }
 \examples{
+\dontrun{
 # construct a file name using `make_filename`
 file_name <- make_filenam(2013)
 fars_read(file_name)
 
 # supply file name explicitly
 fars_read("accident_2013.csv.bz2")
+}
 
 }
