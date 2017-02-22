@@ -12,7 +12,7 @@ fars_map_state(state.num, year)
 \item{year}{An \code{integer}, or any other type could be coerced to an integer, represents the year of the \href{https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars}{FARS} data file.}
 }
 \value{
-A plot of a state from \code{\link[map]{map}} and points correspond to the coordinates of recorded accidents.
+A plot of a state from \code{\link[maps]{map}} and points correspond to the coordinates of recorded accidents.
 }
 \description{
 This function plots individual \href{https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars}{FARS} accidents' coordinates as points on a stat map

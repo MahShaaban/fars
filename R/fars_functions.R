@@ -135,7 +135,7 @@ fars_summarize_years <- function(years) {
 #' @param state.num An \code{intger} represents the identifier of a state.
 #' @inheritParams make_filename
 #'
-#' @return A plot of a state from \code{\link[map]{map}} and points correspond to the coordinates of recorded accidents.
+#' @return A plot of a state from \code{\link[maps]{map}} and points correspond to the coordinates of recorded accidents.
 #'
 #' @details The function returns an error \code{invalid STATE number: state.num} if the provided number does not correspond to a STATE in the data of this particular year and a message \code{no accidents to plot} if the number of accident for this year is 0.
 #' otherwise it constructs a file name using the provided year, read the data file and plot points of individual accidents on the STATE map.
